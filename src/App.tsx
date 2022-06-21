@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
+import { Router } from './router/Router';
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
-      <h1>hello world</h1>
+      <h1>お天気アプリ</h1>
+      <Router />
     </div>
   );
 }
-
-export default App;
